@@ -1,11 +1,3 @@
-# Task 06 on Phase 01
+# Wordpress deployment (made easy!) 
 
-This repo for [Task 06](https://learningdevops.makvaz.com/phase1-task6-multi-application-servers-setup).
-
-## Tips:
-
-To start vms type `vagrant up`
-
-To provision vms type `vagrant provision`
-
-To destroy vms type `vagrant destroy -f`
+Basically this is just a Vagrant box that deploys wordpress VM's, mysql, and a loadbalancer. It uses ansible as the provisioner for idempotent automated deployment. 
